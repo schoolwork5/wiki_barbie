@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(flamingo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    height:auto;
+  
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+main{
+    height: 1000px;
+}
+body::before{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+img{
+    max-width: 100%;
+}
+
+.foto{
+    object-fit: cover;
+    transition: border-radius 0.3s ease;
+}
+
+.foto:hover{
+    border-radius: 50%;
+}
+
+#pontos{
+    background-color: #e17eb0;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#top{
+    background-color: #e17eb0;
+    color: black;
+    padding:20px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+#quiz{
+    background-color: #e17eb0;
+
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+#video{
+    margin-top: 15px;
+}
+
+#imagens{
+    margin-left: 50px;
+    display: grid;
+    gap:20px;
+    grid-template-columns: auto auto auto;
+}
+
+h2{
+    text-decoration: underline;
+}
